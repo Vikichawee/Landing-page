@@ -1,0 +1,134 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    border-style: solid;
+    border-width: 3px;
+    margin: 0 200px 150px 200px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-left: 200px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    margin-right: 200px;
+    
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    gap: 100px;
+    margin: 150px 200px 200px 200px;
+    background-color: #1F2937;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    flex: auto;
+}
+.snimka{
+    display: flex;
+    justify-content: flex-end;
+   
+    margin-right: 200px;
+    
+}
+.container button{
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+}
+.infotab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    flex-direction: row;
+    padding: 10px;
+   
+}
+.infotext{
+    display: flex;
+    justify-content: center;
+    
+}
+.combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.combo p{
+    text-align: center;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+.quote p{
+    width: 900px;;
+}
+.quote b{
+    margin-left: 400px;
+}
+.signupform{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+    margin: 120px 200px 120px 200px;
+    background-color: #3b82f6;
+    border-radius: 12px;
+    font-size: 24px;
+    
+}
+.signuptext{
+    display: flex;
+    flex-direction: column;
+}
+.signupform button{
+    width: 140px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+
+
+
